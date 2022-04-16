@@ -11,6 +11,6 @@ int main()
     char tmp[64];
     strftime(tmp, sizeof(tmp), "%Y-%m-%d %H:%M:%S", localtime(&t));
     std::cout << tmp << std::endl;
-    std::cout << "新功能test" << std::endl;
+    std::cout << "新功能test1.1" << std::endl;
     return 0;
 }
