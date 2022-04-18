@@ -4,13 +4,14 @@
 int main()
 {
     std::cout << "Hello World!" << std::endl;
-    std::cout << "gitºÃ" << std::endl;
-    // »ñÈ¡µ±Ç°ÏµÍ³Ê±¼ä
+    std::cout << "gitå¥½" << std::endl;
+    // è·å–å½“å‰ç³»ç»Ÿæ—¶é—´
     time_t t = time(0);
-    // ½«Ê±¼ä×ª»»Îª×Ö·û´®
+    // å°†æ—¶é—´è½¬æ¢ä¸ºå­—ç¬¦ä¸²
     char tmp[64];
     strftime(tmp, sizeof(tmp), "%Y-%m-%d %H:%M:%S", localtime(&t));
     std::cout << tmp << std::endl;
-    std::cout << "ĞÂ¹¦ÄÜtest1.1" << std::endl;
+    std::cout << "æ–°åŠŸèƒ½test1.1" << std::endl;
+    std::cout << "å¦ä¸€ä¸ªäººçš„æäº¤" << std::endl;
     return 0;
 }
