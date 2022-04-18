@@ -15,5 +15,6 @@ int main()
     std::cout << "另一个人的提交" << std::endl;
     std::cout << "我的提交" << std::endl;
     std::cout << "我的提交2" << std::endl;
+    std::cout << "另一个人的提交2" << std::endl;
     return 0;
 }
